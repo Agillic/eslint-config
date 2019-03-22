@@ -4,10 +4,7 @@
 </p>
 
 <p align="center">
-  <a href="https://gitlab.com/agillic-ci/create-reducer/commits/master"><img alt="pipeline status" src="https://gitlab.com/agillic-ci/create-reducer/badges/master/pipeline.svg" /></a>
-</p>
-<p align="center">
-  <a href="https://gitlab.com/agillic-ci/create-reducer/commits/master"><img alt="coverage report" src="https://gitlab.com/agillic-ci/create-reducer/badges/master/coverage.svg" /></a>
+  <a href="https://gitlab.com/agillic-ci/create-reducer/commits/master"><img alt="pipeline status" src="https://gitlab.com/agillic-ci/eslint-config/badges/master/pipeline.svg" /></a>
 </p>
 
 # Agillic ESlint Config
