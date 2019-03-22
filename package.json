@@ -2,7 +2,7 @@
   "name": "@agillic/eslint-config",
   "version": "0.0.1",
   "description": "This package provides Agillic's .eslintrc as an extensible shared config.",
-  "main": "src/index.js",
+  "main": "index.js",
   "author": "Bence A. Toth <bence.toth@agillic.com>",
   "contributors": [
     "Bence A. Toth <bence.toth@agillic.com>",
