@@ -40,6 +40,7 @@ module.exports = {
       "maxEOF": 1
     }],
     "import/no-extraneous-dependencies": [2, {"devDependencies": ["**/*.stories.js", "**/*.test.js", "**/.storybook/*.js"]}],
+    "id-length": 2,
     "max-len": 0,
     "no-console": [2, {
       "allow": ["log", "warn", "error"]
