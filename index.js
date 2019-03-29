@@ -2,6 +2,21 @@ module.exports = {
   "extends": ["airbnb", "plugin:sonarjs/recommended"],
   "parser": "babel-eslint",
   "plugins": ["fp", "unicorn", "sonarjs", "array-func", "immutable", "filenames", "react-hooks"],
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "console": false,
+    "document": false,
+    "fetch": false,
+    "Headers": false,
+    "it": false,
+    "navigator": false,
+    "URL": false,
+    "window": false,
+    "describe": false,
+    "expect": false
+  },
   "rules": {
     "no-unused-expressions": 0,
     "array-func/prefer-flat-map": 2,
@@ -73,17 +88,5 @@ module.exports = {
     "unicorn/prefer-spread": 2,
     "unicorn/no-unsafe-regex": 2,
     "unicorn/prefer-exponentiation-operator": 2
-  },
-  "globals": {
-    "console": false,
-    "document": false,
-    "fetch": false,
-    "Headers": false,
-    "it": false,
-    "navigator": false,
-    "URL": false,
-    "window": false,
-    "describe": false,
-    "expect": false
   }
 }
