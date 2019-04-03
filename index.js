@@ -1,7 +1,7 @@
 module.exports = {
   "extends": ["airbnb", "plugin:sonarjs/recommended"],
   "parser": "babel-eslint",
-  "plugins": ["fp", "unicorn", "sonarjs", "array-func", "immutable", "filenames", "react-hooks"],
+  "plugins": ["fp", "unicorn", "sonarjs", "array-func", "immutable", "filenames", "react-hooks", "@getify/proper-arrows"],
   "env": {
     "browser": true
   },
@@ -87,6 +87,8 @@ module.exports = {
     "unicorn/regex-shorthand": 2,
     "unicorn/prefer-spread": 2,
     "unicorn/no-unsafe-regex": 2,
-    "unicorn/prefer-exponentiation-operator": 2
+    "unicorn/prefer-exponentiation-operator": 2,
+    "@getify/proper-arrows/params": 2,
+    "@getify/proper-arrows/return": [2, {"object": false}]
   }
 }
