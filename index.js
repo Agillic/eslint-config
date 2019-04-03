@@ -55,7 +55,7 @@ module.exports = {
       "maxEOF": 1
     }],
     "import/no-extraneous-dependencies": [2, {"devDependencies": ["**/*.stories.js", "**/*.test.js", "**/.storybook/*.js"]}],
-    "id-length": 2,
+    "id-length": [2, {"exceptions": ["_", "x", "y"]}],
     "max-len": 0,
     "no-console": [2, {
       "allow": ["log", "warn", "error"]
@@ -88,7 +88,7 @@ module.exports = {
     "unicorn/prefer-spread": 2,
     "unicorn/no-unsafe-regex": 2,
     "unicorn/prefer-exponentiation-operator": 2,
-    "@getify/proper-arrows/params": 2,
-    "@getify/proper-arrows/return": [2, {"object": false}]
+    "@getify/proper-arrows/params": [2, {"count": 50, "allowed": ["_", "x", "y"]}],
+    "@getify/proper-arrows/return": [2, {"object": false, "ternary": 1000}]
   }
 }
