@@ -16,7 +16,7 @@ Made with :heart: by Agillic
 ## Installation
 
 ```sh
-npm install --saveDev @agillic/eslint-config
+npm install --save-dev @agillic/eslint-config
 ```
 
 Or if you're using `yarn`
