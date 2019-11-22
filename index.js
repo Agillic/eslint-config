@@ -1,7 +1,18 @@
 module.exports = {
   "extends": ["airbnb", "plugin:sonarjs/recommended"],
   "parser": "babel-eslint",
-  "plugins": ["fp", "unicorn", "sonarjs", "array-func", "immutable", "filenames", "react-hooks", "@getify/proper-arrows"],
+  "plugins": [
+    "fp",
+    "unicorn",
+    "sonarjs",
+    "array-func",
+    "immutable",
+    "filenames",
+    "react-hooks",
+    "@getify/proper-arrows",
+    "jest",
+    "no-only-tests"
+  ],
   "env": {
     "browser": true
   },
@@ -89,6 +100,21 @@ module.exports = {
     "unicorn/no-unsafe-regex": 2,
     "unicorn/prefer-exponentiation-operator": 2,
     "@getify/proper-arrows/params": [2, {"count": 50, "allowed": ["_", "x", "y"]}],
-    "@getify/proper-arrows/return": [2, {"object": false, "ternary": 1000}]
+    "@getify/proper-arrows/return": [2, {"object": false, "ternary": 1000}],
+    "jest/consistent-test-it": [2, {"fn": "test", "withinDescribe": "it"}],
+    "jest/lowercase-name": 2,
+    "jest/no-disabled-tests": 1,
+    "jest/no-commented-out-tests": 1,
+    "jest/no-empty-title": 2,
+    "jest/no-export": 2,
+    "jest/no-identical-title": 2,
+    "jest/no-jest-import": 2,
+    "jest/no-standalone-expect": 2,
+    "jest/prefer-todo": 2,
+    "jest/require-top-level-describe": 2,
+    "jest/valid-describe": 2,
+    "jest/valid-expect-in-promise": 1,
+    "jest/valid-expect": 1,
+    "no-only-tests/no-only-tests": "error"
   }
 }

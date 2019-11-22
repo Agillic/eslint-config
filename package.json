@@ -1,6 +1,6 @@
 {
   "name": "@agillic/eslint-config",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "This package provides Agillic's .eslintrc as an extensible shared config.",
   "main": "index.js",
   "author": "Bence A. Toth <bence.toth@agillic.com>",
@@ -10,7 +10,8 @@
     "Zivile Utkeviciute <zivile.utkeviciute@agillic.com>",
     "Rita Radovics <rita.radovics@agillic.com>",
     "Bancho Petrov <bancho.petrov@agillic.com>",
-    "Kyrill Kozubenko <kyrill.kozubenko@agillic.com>"
+    "Kyrill Kozubenko <kyrill.kozubenko@agillic.com>",
+    "Aleksander Nowak <aleksander.nowak@agillic.com"
   ],
   "homepage": "https://github.com/Agillic/eslint-config-agillic",
   "repository": {
@@ -38,10 +39,12 @@
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-immutable": "^1.0.0",
     "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.21.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-no-only-tests": "^2.3.1",
+    "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^1.7.0",
-    "eslint-plugin-sonarjs": "^0.2.0",
+    "eslint-plugin-sonarjs": "^0.5.0",
     "eslint-plugin-unicorn": "^6.0.1"
   },
   "scripts": {
