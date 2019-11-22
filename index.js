@@ -10,7 +10,8 @@ module.exports = {
     "filenames",
     "react-hooks",
     "@getify/proper-arrows",
-    "jest"
+    "jest",
+    "no-only-tests"
   ],
   "env": {
     "browser": true
@@ -114,5 +115,6 @@ module.exports = {
     "jest/valid-describe": 2,
     "jest/valid-expect-in-promise": 1,
     "jest/valid-expect": 1,
+    "no-only-tests/no-only-tests": "error"
   }
 }
